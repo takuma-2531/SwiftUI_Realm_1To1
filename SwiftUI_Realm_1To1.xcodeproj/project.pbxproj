@@ -16,7 +16,6 @@
 		26E9A5452546D65100BA667A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26E9A5432546D65100BA667A /* LaunchScreen.storyboard */; };
 		26E9A5552546D91800BA667A /* ItemDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E9A5542546D91800BA667A /* ItemDB.swift */; };
 		26E9A55A2546D9BF00BA667A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E9A5592546D9BF00BA667A /* Item.swift */; };
-		26E9A55E2546DC5200BA667A /* ItemForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E9A55D2546DC5200BA667A /* ItemForm.swift */; };
 		26E9A5642546E12A00BA667A /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E9A5632546E12A00BA667A /* ItemStore.swift */; };
 		26E9A5682546EDB100BA667A /* ItemMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E9A5672546EDB100BA667A /* ItemMock.swift */; };
 		26E9A56B2546F0A600BA667A /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E9A56A2546F0A600BA667A /* ItemListView.swift */; };
@@ -35,7 +34,6 @@
 		26E9A5462546D65100BA667A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26E9A5542546D91800BA667A /* ItemDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDB.swift; sourceTree = "<group>"; };
 		26E9A5592546D9BF00BA667A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		26E9A55D2546DC5200BA667A /* ItemForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemForm.swift; sourceTree = "<group>"; };
 		26E9A5632546E12A00BA667A /* ItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
 		26E9A5672546EDB100BA667A /* ItemMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemMock.swift; sourceTree = "<group>"; };
 		26E9A56A2546F0A600BA667A /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				26E9A5592546D9BF00BA667A /* Item.swift */,
-				26E9A55D2546DC5200BA667A /* ItemForm.swift */,
 				26E9A5672546EDB100BA667A /* ItemMock.swift */,
 				26E9A5542546D91800BA667A /* ItemDB.swift */,
 			);
@@ -258,7 +255,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26E9A55E2546DC5200BA667A /* ItemForm.swift in Sources */,
 				26E9A55A2546D9BF00BA667A /* Item.swift in Sources */,
 				26E9A5682546EDB100BA667A /* ItemMock.swift in Sources */,
 				26E9A5552546D91800BA667A /* ItemDB.swift in Sources */,
