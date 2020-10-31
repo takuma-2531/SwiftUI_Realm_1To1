@@ -15,10 +15,10 @@ struct Item: Identifiable {
 }
 
 extension Item {
-  init(ItemDB: ItemDB) {
-      id = ItemDB.id
-      title = ItemDB.title
-      number = ItemDB.number
+  init(itemDB: ItemDB) {
+      id = itemDB.id
+      title = itemDB.title
+      number = itemDB.number
     }
 
 }

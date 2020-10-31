@@ -55,10 +55,6 @@ extension ItemStore {
     }
   }
   
-  func anotherUpdate(item: Item) {
-    
-  }
-  
   func delete(itemID: Int) {
     objectWillChange.send()
     
@@ -97,18 +93,18 @@ extension ItemStore {
     
     while true {
       guard let itemDB = itemResults.first
-          else {
-            return
-          }
-          
-          do {
-            let realm = try Realm()
-            try realm.write {
-              realm.delete(itemDB)
-            }
-          } catch let error {
-            print(error.localizedDescription)
-          }
+      else {
+        return
+      }
+      
+      do {
+        let realm = try Realm()
+        try realm.write {
+          realm.delete(itemDB)
+        }
+      } catch let error {
+        print(error.localizedDescription)
+      }
     }
     
   }
